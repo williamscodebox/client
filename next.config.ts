@@ -1,6 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  swcMinify: false,
   /* config options here */ images: {
     remotePatterns: [
       {
@@ -18,7 +19,5 @@ const nextConfig: NextConfig = {
     ],
   },
 };
-module.exports = {
-  swcMinify: false,
-};
+
 export default nextConfig;
