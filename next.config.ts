@@ -17,6 +17,9 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  module.exports = {
+    swcMinify: false,
+}
 };
 
 export default nextConfig;
